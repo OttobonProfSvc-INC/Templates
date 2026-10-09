@@ -1,0 +1,32 @@
+{
+  "name": "ottobon-templates-hub",
+  "version": "1.0.0",
+  "description": "Unified Templates Dashboard & Repository Directory for Healthcare, Colleges, and Schools",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "docker:build": "docker compose build",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "templates",
+    "dashboard",
+    "healthcare",
+    "education",
+    "schools",
+    "colleges",
+    "nextjs",
+    "vite",
+    "react"
+  ],
+  "author": "Ottobon",
+  "license": "MIT"
+}

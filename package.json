@@ -1,32 +1,33 @@
 {
-  "name": "ottobon-templates-hub",
-  "version": "1.0.0",
-  "description": "Unified Templates Dashboard & Repository Directory for Healthcare, Colleges, and Schools",
-  "main": "server.js",
+  "name": "tmp_app",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "docker:build": "docker compose build",
-    "docker:up": "docker compose up -d",
-    "docker:down": "docker compose down",
-    "docker:logs": "docker compose logs -f"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
-  "engines": {
-    "node": ">=18.0.0"
+  "dependencies": {
+    "next": "16.4.0",
+    "next-auth": "^4.24.15",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
   },
-  "dependencies": {},
-  "devDependencies": {},
-  "keywords": [
-    "templates",
-    "dashboard",
-    "healthcare",
-    "education",
-    "schools",
-    "colleges",
-    "nextjs",
-    "vite",
-    "react"
-  ],
-  "author": "Ottobon",
-  "license": "MIT"
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "jsdom": "^29.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vite": "^8.3.3",
+    "vitest": "^5.0.3"
+  }
 }
