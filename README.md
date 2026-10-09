@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# sBLOOM Template & Content Hub
 
-## Getting Started
+This is an internal creative asset platform built with Next.js. The repository uses an npm workspace monorepo architecture. 
 
-First, run the development server:
+## Current Architecture Boundary (Phase 2.5)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- The frontend is fully isolated in `apps/frontend`.
+- The backend and database packages have not yet been implemented (scheduled for Phase 3).
+- Authentication currently uses mock users inside the frontend workspace.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Repository Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `apps/frontend`: The Next.js UI application and Backend-For-Frontend (BFF).
+- `legacy`: Preserved legacy prototype.
+- `docs`: Architecture and phase planning documentation.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation and Scripts
+
+Run the following commands from the repository root:
+
+- **Install dependencies**: `npm install`
+- **Run frontend development server**: `npm run dev`
+- **Build frontend**: `npm run build`
+- **Run tests**: `npm run test`
+- **Run E2E tests**: 
+  1. Start the server in one terminal: `npm run dev`
+  2. Run the E2E script in another terminal: `npm run test:e2e`
+- **Lint**: `npm run lint`
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+See the `/docs` directory for architectural rules, phase planning, and data models.
