@@ -72,6 +72,18 @@ test('Full Login, Session, and Logout E2E Flow', async (t) => {
     assert.ok(html.includes('Library Foundation Ready') || html.includes('sBLOOM Hub'), 'Page content should be visible');
   });
 
+  await t.test('7b. Verify BFF route hits internal backend', async () => {
+    const res = await fetch(`${BASE_URL}/api/bff/test`, {
+      headers: {
+        'Cookie': sessionCookie,
+      },
+    });
+    
+    assert.strictEqual(res.status, 200, 'Authenticated user should access /api/bff/test with 200 OK');
+    const data = await res.json();
+    assert.ok(data.id, 'Response should contain the user ID');
+  });
+
   await t.test('8-9. Logout and verify session invalidation', async () => {
     // We need a fresh CSRF token to logout
     const csrfRes = await fetch(`${BASE_URL}/api/auth/csrf`, {

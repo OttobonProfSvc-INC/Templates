@@ -11,3 +11,8 @@
 9. Stop for audit.
 
 Each Antigravity phase prompt must state role, current state, objective, required work, exclusions, architecture constraints, acceptance criteria, tests, documentation, and completion-report format.
+
+## Generating local API keys
+To generate the RS256 internal API trust keys for local development, run:
+`node generate-env.js`
+This creates `apps/frontend/.env.local` and `apps/backend/.env`.

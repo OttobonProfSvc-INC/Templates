@@ -23,3 +23,7 @@ Status: Approved
 ## Decision 006 — NextAuth (Auth.js) Authentication Provider
 Use NextAuth for authentication and session management. A temporary Credentials provider is configured for Phase 2 development, to be replaced or connected to the PostgreSQL database in Phase 3.
 Status: Proposed
+
+## Decision 007 — Internal Service-to-Service Trust Model
+The Next.js BFF uses asymmetric signing (RS256) to issue a short-lived (15s) internal JWT to the Node.js Express backend. The backend validates the signature, issuer, audience, and expiration before permitting access.
+Status: Approved
