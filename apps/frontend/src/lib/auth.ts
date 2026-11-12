@@ -1,14 +1,13 @@
 import { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 
-export type Role = "ADMIN" | "CONTRIBUTOR" | "VIEWER";
+export type Role = "ADMIN" | "CONTRIBUTOR";
 
 // Temporary mock users for Phase 2 development.
 // This will be replaced by PostgreSQL database queries in Phase 3.
 const MOCK_USERS = [
   { id: "1", name: "Admin User", email: "admin@sbloom.com", password: "password123", role: "ADMIN" as Role },
   { id: "2", name: "Content Contributor", email: "contributor@sbloom.com", password: "password123", role: "CONTRIBUTOR" as Role },
-  { id: "3", name: "Viewer User", email: "viewer@sbloom.com", password: "password123", role: "VIEWER" as Role },
 ];
 
 export const authOptions: NextAuthOptions = {

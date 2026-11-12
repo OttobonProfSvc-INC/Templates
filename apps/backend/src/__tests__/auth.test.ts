@@ -3,15 +3,8 @@ import app from '../app';
 import crypto from 'crypto';
 import { SignJWT, importPKCS8 } from 'jose';
 
-const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
-  modulusLength: 2048,
-  publicKeyEncoding: { type: 'spki', format: 'pem' },
-  privateKeyEncoding: { type: 'pkcs8', format: 'pem' }
-});
+const privateKey = process.env.__TEST_PRIVATE_KEY__!;
 
-process.env.INTERNAL_API_PUBLIC_KEY = publicKey;
-process.env.INTERNAL_JWT_ISSUER = 'sbloom-bff';
-process.env.INTERNAL_JWT_AUDIENCE = 'sbloom-backend';
 
 async function signToken(payload: any, options: any = {}) {
   const alg = 'RS256';

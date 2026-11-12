@@ -9,17 +9,16 @@ For Phase 2, a temporary `CredentialsProvider` has been implemented with mock ha
 Sessions are stored using secure HTTP-only cookies in a JSON Web Token (JWT) format (`strategy: "jwt"`). The session is valid for 24 hours. No sensitive session information is stored in `localStorage`.
 
 ## Role Model
-The application defines three initial roles:
-- `ADMIN`: Full access to the application, including the ability to upload and manage assets.
-- `CONTRIBUTOR`: Can upload and manage assets.
-- `VIEWER`: Can view the library and assets.
+The application defines exactly two canonical product roles:
+- `ADMIN`: Full administrative access to the application, including user management, role assignment, peer review decisions, approvals/rejections, publishing, archival, purge, recovery, and audit logs.
+- `CONTRIBUTOR`: Combines content consumption and contribution. Can browse the template library, search/filter, view details, preview/download files, use published content, manage personal collections, create new assets, author draft revisions, upload files, edit drafts they own, and submit revisions for review.
 
 ## Route Protection & Server-Side Authorization
 Client-side protection is NOT relied upon. All authentication and role checks are performed server-side via Next.js Middleware (`src/middleware.ts`).
 
 - Unauthenticated users attempting to access `/library`, `/my-work`, or `/add` are redirected to `/login`.
 - Authenticated users attempting to access `/login` are redirected to `/library`.
-- The `/add` route enforces Role Authorization at the edge. Only users with the `ADMIN` or `CONTRIBUTOR` claim can access it; `VIEWER` users are bounced back to `/library`.
+- The `/add` route enforces Role Authorization at the edge. Active product roles (`ADMIN` and `CONTRIBUTOR`) are permitted access; unrecognized or legacy roles (such as obsolete `VIEWER` tokens) are bounced back to `/library`.
 
 ## Environment Variables
 - `NEXTAUTH_SECRET`: The secret used to encrypt the JWT session. This must be set in production. (In development, a fallback is currently provided for convenience, but `.env` should be configured).
@@ -29,7 +28,6 @@ Client-side protection is NOT relied upon. All authentication and role checks ar
 No database is required for development. You can log in using the following mock credentials:
 - admin@sbloom.com / password123 (Role: ADMIN)
 - contributor@sbloom.com / password123 (Role: CONTRIBUTOR)
-- viewer@sbloom.com / password123 (Role: VIEWER)
 
 ## Phase 3 Integration Requirements
 When Phase 3 (Database) begins:

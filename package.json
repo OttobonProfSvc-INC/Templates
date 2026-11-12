@@ -7,11 +7,16 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npm run dev --workspace=@sbloom/frontend",
+    "dev": "concurrently -n \"backend,frontend\" -c \"blue,green\" \"npm run dev --workspace=@sbloom/backend\" \"npm run dev --workspace=@sbloom/frontend\"",
+    "dev:frontend": "npm run dev --workspace=@sbloom/frontend",
+    "dev:backend": "npm run dev --workspace=@sbloom/backend",
     "build": "npm run build --workspace=@sbloom/frontend",
     "start": "npm run start --workspace=@sbloom/frontend",
     "lint": "npm run lint --workspace=@sbloom/frontend",
     "test": "npm run test --workspace=@sbloom/frontend",
     "test:e2e": "node apps/frontend/test-e2e.js"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
   }
 }

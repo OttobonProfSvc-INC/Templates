@@ -3,18 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prebuild": "npm run build --prefix ../../packages/contracts",
     "dev": "ts-node-dev --respawn src/index.ts",
     "build": "tsc",
     "test": "jest",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "bootstrap:admin": "ts-node src/scripts/bootstrap-admin.ts",
+    "bootstrap:asset-type": "ts-node src/scripts/bootstrap-asset-type.ts",
+    "bootstrap:preflight": "ts-node src/scripts/bootstrap-preflight.ts",
+    "user:bootstrap-admin": "ts-node src/scripts/bootstrap-admin.ts",
+    "ingest:dry-run": "ts-node src/scripts/ingest-dry-run.ts",
+    "migrate:templates": "ts-node src/scripts/migrate-master-templates.ts"
   },
   "dependencies": {
     "@sbloom/contracts": "*",
     "@sbloom/database": "*",
+    "@supabase/storage-js": "^2.118.0",
+    "@supabase/supabase-js": "^2.118.0",
+    "@types/adm-zip": "^0.5.8",
+    "adm-zip": "^0.6.1",
     "cors": "^2.8.5",
     "dotenv": "^18.0.6",
     "express": "^4.19.2",
-    "jose": "^4.15.9"
+    "jose": "^4.15.9",
+    "sharp": "^0.35.5",
+    "zod": "^3.25.0 || ^4.0.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

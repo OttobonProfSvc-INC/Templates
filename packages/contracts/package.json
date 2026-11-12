@@ -6,7 +6,11 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "test": "tsc && node test/contracts.test.js"
+  },
+  "dependencies": {
+    "zod": "^3.25.0 || ^4.0.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0"

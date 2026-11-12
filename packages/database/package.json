@@ -6,12 +6,20 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "test": "npm run test:preflight && node test/schema-security-acls.test.js && node test/ingestion.test.js",
+    "test:preflight": "node test/preflight-model.test.js && node test/preflight-sql-execution.test.js",
+    "test:preflight:model": "node test/preflight-model.test.js",
+    "test:preflight:sql": "node test/preflight-sql-execution.test.js",
+    "test:security": "node test/schema-security-acls.test.js",
+    "ingest:plan": "tsc && node dist/ingest-runner.js"
   },
   "dependencies": {
     "@prisma/client": "^5.0.0"
   },
   "devDependencies": {
+    "@types/pg": "^8.23.1",
+    "pg": "^8.23.1",
     "prisma": "^5.0.0",
     "typescript": "^5.0.0"
   }

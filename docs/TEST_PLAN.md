@@ -7,7 +7,7 @@ Unit, integration, end-to-end, manual UX, security.
 Login → Add Asset → Upload → Processing → Review → Approve → Search → Open → Save → Remix.
 
 ## Roles
-Viewer cannot upload/approve. Contributor can upload and manage permitted assets. Admin can review and administer.
+Contributor can consume permitted content, upload, and manage permitted assets. Admin can review, publish, and administer.
 
 ## Negative tests
 Invalid file, oversized file, failed upload, duplicate, unauthorized edit/approval, expired session, broken preview, missing metadata, processing failure.

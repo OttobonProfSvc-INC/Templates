@@ -8,8 +8,7 @@ An internal creative asset platform where authorized users can add, organize, di
 
 ## Roles
 - Admin
-- Contributor
-- Viewer
+- Contributor (combines content consumption and contribution capabilities)
 
 ## MVP capabilities
 1. Authentication and roles

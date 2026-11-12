@@ -1,9 +1,370 @@
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
   directUrl = env("DIRECT_URL")
 }
 
 generator client {
   provider = "prisma-client-js"
 }
+
+enum UserRole {
+  ADMIN
+  CONTRIBUTOR
+}
+
+enum AssetStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum RevisionStatus {
+  DRAFT
+  SUBMITTED
+  CHANGES_REQUESTED
+  APPROVED
+  PUBLISHED
+  SUPERSEDED
+  REJECTED
+}
+
+enum FileRole {
+  PRIMARY_ENTRY
+  SOURCE_ARCHIVE
+  THUMBNAIL
+  PREVIEW_IMAGE
+  ATTACHMENT
+}
+
+enum ReviewDecision {
+  APPROVED
+  CHANGES_REQUESTED
+  REJECTED
+}
+
+enum UsageAction {
+  VIEW
+  DOWNLOAD
+  PREVIEW
+  REMIX
+}
+
+enum JobStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+model User {
+  id        String   @id @default(uuid()) @db.Uuid
+  email     String   @unique @db.VarChar(255)
+  name      String   @db.VarChar(255)
+  role      UserRole @default(CONTRIBUTOR)
+  isActive  Boolean  @default(true) @map("is_active")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at")
+
+  createdAssets     Asset[]         @relation("AssetCreator")
+  authoredRevisions AssetRevision[] @relation("RevisionAuthor")
+  conductedReviews  Review[]        @relation("Reviewer")
+  ownedCollections  Collection[]    @relation("UserCollections")
+  usageEvents       AssetUsage[]    @relation("UserUsages")
+  auditEvents       AuditEvent[]    @relation("UserAuditEvents")
+
+  @@map("users_templatedhub")
+}
+
+model AssetType {
+  id             String   @id @default(uuid()) @db.Uuid
+  code           String   @unique @db.VarChar(50)
+  name           String   @db.VarChar(100)
+  description    String?  @db.Text
+  icon           String?  @db.VarChar(50)
+  metadataSchema Json     @default("{}") @map("metadata_schema")
+  fileRules      Json?    @map("file_rules")
+  schemaVersion  Int      @default(1) @map("schema_version")
+  isActive       Boolean  @default(true) @map("is_active")
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @default(now()) @updatedAt @map("updated_at")
+
+  assets Asset[] @relation("AssetTypeAssets")
+
+  @@map("asset_types_templatedhub")
+}
+
+model Asset {
+  id                         String      @id @default(uuid()) @db.Uuid
+  slug                       String      @unique @db.VarChar(150)
+  legacyId                   String?     @unique @map("legacy_id") @db.VarChar(100)
+  importSource               String?     @map("import_source") @db.VarChar(50)
+  typeId                     String      @map("type_id") @db.Uuid
+  creatorId                  String      @map("creator_id") @db.Uuid
+  status                     AssetStatus @default(DRAFT)
+  lastRevisionNumber         Int         @default(0) @map("last_revision_number")
+  currentPublishedRevisionId String?     @map("current_published_revision_id") @db.Uuid
+  remixSourceAssetId         String?     @map("remix_source_asset_id") @db.Uuid
+  remixSourceRevisionId      String?     @map("remix_source_revision_id") @db.Uuid
+  isFeatured                 Boolean     @default(false) @map("is_featured")
+  createdAt                  DateTime    @default(now()) @map("created_at")
+  updatedAt                  DateTime    @default(now()) @updatedAt @map("updated_at")
+  archivedAt                 DateTime?   @map("archived_at")
+
+  type                     AssetType      @relation("AssetTypeAssets", fields: [typeId], references: [id], onDelete: Restrict)
+  creator                  User           @relation("AssetCreator", fields: [creatorId], references: [id], onDelete: Restrict)
+  currentPublishedRevision AssetRevision? @relation("CurrentPublishedRevision", fields: [currentPublishedRevisionId, id], references: [id, assetId], onDelete: Restrict)
+  remixSourceAsset         Asset?         @relation("AssetRemixSource", fields: [remixSourceAssetId], references: [id], onDelete: Restrict)
+  remixSourceRevision      AssetRevision? @relation("RevisionRemixSource", fields: [remixSourceRevisionId, remixSourceAssetId], references: [id, assetId], onDelete: Restrict)
+
+  revisions        AssetRevision[]   @relation("AssetRevisions")
+  remixes          Asset[]           @relation("AssetRemixSource")
+  reviews          Review[]          @relation("AssetReviews")
+  collectionAssets CollectionAsset[] @relation("AssetCollections")
+  usages           AssetUsage[]      @relation("AssetUsages")
+
+  @@index([status, typeId, createdAt(sort: Desc)])
+  @@index([creatorId, status, updatedAt(sort: Desc)])
+  @@index([isFeatured, createdAt(sort: Desc)])
+  @@index([remixSourceAssetId])
+  @@index([remixSourceAssetId, remixSourceRevisionId])
+  @@map("assets_templatedhub")
+}
+
+model AssetRevision {
+  id               String         @id @default(uuid()) @db.Uuid
+  assetId          String         @map("asset_id") @db.Uuid
+  revisionNumber   Int            @map("revision_number")
+  title            String         @db.VarChar(255)
+  description      String?        @db.Text
+  metadata         Json           @default("{}")
+  schemaVersion    Int            @default(1) @map("schema_version")
+  status           RevisionStatus @default(DRAFT)
+  decidingReviewId String?        @unique @map("deciding_review_id") @db.Uuid
+  createdById      String         @map("created_by_id") @db.Uuid
+  createdAt        DateTime       @default(now()) @map("created_at")
+
+  asset          Asset   @relation("AssetRevisions", fields: [assetId], references: [id], onDelete: Cascade)
+  createdBy      User    @relation("RevisionAuthor", fields: [createdById], references: [id], onDelete: Restrict)
+  decidingReview Review? @relation("DecidingReview", fields: [decidingReviewId], references: [id], onDelete: Restrict)
+
+  files                  AssetFile[]  @relation("RevisionFiles")
+  reviews                Review[]     @relation("RevisionReviews")
+  usages                 AssetUsage[] @relation("RevisionUsages")
+  currentlyPublishedIn   Asset[]      @relation("CurrentPublishedRevision")
+  remixesOriginatingHere Asset[]      @relation("RevisionRemixSource")
+
+  @@unique([assetId, revisionNumber])
+  @@unique([id, assetId])
+  @@index([assetId, status])
+  @@index([createdById])
+  @@map("asset_revisions_templatedhub")
+}
+
+model AssetFile {
+  id             String   @id @default(uuid()) @db.Uuid
+  revisionId     String   @map("revision_id") @db.Uuid
+  storageKey     String   @map("storage_key") @db.VarChar(500)
+  fileName       String   @map("file_name") @db.VarChar(255)
+  mimeType       String   @map("mime_type") @db.VarChar(100)
+  sizeBytes      BigInt   @map("size_bytes")
+  checksumSha256 String?  @map("checksum_sha256") @db.VarChar(64)
+  role           FileRole @default(PRIMARY_ENTRY)
+  isEntryPoint   Boolean  @default(false) @map("is_entry_point")
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  revision AssetRevision @relation("RevisionFiles", fields: [revisionId], references: [id], onDelete: Cascade)
+
+  @@index([revisionId, role])
+  @@index([storageKey])
+  @@map("asset_files_templatedhub")
+}
+
+model Review {
+  id             String         @id @default(uuid()) @db.Uuid
+  assetId        String         @map("asset_id") @db.Uuid
+  revisionId     String         @map("revision_id") @db.Uuid
+  reviewerId     String         @map("reviewer_id") @db.Uuid
+  previousStatus String         @map("previous_status") @db.VarChar(50)
+  newStatus      String         @map("new_status") @db.VarChar(50)
+  decision       ReviewDecision
+  comments       String?        @db.Text
+  createdAt      DateTime       @default(now()) @map("created_at")
+
+  asset           Asset          @relation("AssetReviews", fields: [assetId], references: [id], onDelete: Restrict)
+  revision        AssetRevision  @relation("RevisionReviews", fields: [revisionId, assetId], references: [id, assetId], onDelete: Restrict)
+  reviewer        User           @relation("Reviewer", fields: [reviewerId], references: [id], onDelete: Restrict)
+  decidedRevision AssetRevision? @relation("DecidingReview")
+
+  @@index([assetId, createdAt(sort: Desc)])
+  @@index([revisionId])
+  @@index([reviewerId])
+  @@map("reviews_templatedhub")
+}
+
+model AuditEvent {
+  id         String   @id @default(uuid()) @db.Uuid
+  actorId    String?  @map("actor_id") @db.Uuid
+  action     String   @db.VarChar(100)
+  entityType String   @map("entity_type") @db.VarChar(50)
+  entityId   String?  @map("entity_id") @db.Uuid
+  ipAddress  String?  @map("ip_address") @db.VarChar(45)
+  userAgent  String?  @map("user_agent") @db.VarChar(500)
+  metadata   Json?
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  actor User? @relation("UserAuditEvents", fields: [actorId], references: [id], onDelete: SetNull)
+
+  @@index([actorId, createdAt(sort: Desc)])
+  @@index([entityType, entityId])
+  @@index([action, createdAt(sort: Desc)])
+  @@map("audit_events_templatedhub")
+}
+
+model Collection {
+  id          String   @id @default(uuid()) @db.Uuid
+  userId      String   @map("user_id") @db.Uuid
+  name        String   @db.VarChar(100)
+  description String?  @db.Text
+  isPublic    Boolean  @default(false) @map("is_public")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @default(now()) @updatedAt @map("updated_at")
+
+  user User @relation("UserCollections", fields: [userId], references: [id], onDelete: Cascade)
+
+  collectionAssets CollectionAsset[] @relation("CollectionAssets")
+
+  @@index([userId, isPublic])
+  @@map("collections_templatedhub")
+}
+
+model CollectionAsset {
+  id           String   @id @default(uuid()) @db.Uuid
+  collectionId String   @map("collection_id") @db.Uuid
+  assetId      String   @map("asset_id") @db.Uuid
+  position     Int      @default(0)
+  addedAt      DateTime @default(now()) @map("added_at")
+
+  collection Collection @relation("CollectionAssets", fields: [collectionId], references: [id], onDelete: Cascade)
+  asset      Asset      @relation("AssetCollections", fields: [assetId], references: [id], onDelete: Cascade)
+
+  @@unique([collectionId, assetId])
+  @@index([collectionId, position])
+  @@map("collection_assets_templatedhub")
+}
+
+model AssetUsage {
+  id         String      @id @default(uuid()) @db.Uuid
+  assetId    String      @map("asset_id") @db.Uuid
+  revisionId String?     @map("revision_id") @db.Uuid
+  userId     String?     @map("user_id") @db.Uuid
+  action     UsageAction
+  createdAt  DateTime    @default(now()) @map("created_at")
+
+  asset    Asset          @relation("AssetUsages", fields: [assetId], references: [id], onDelete: Restrict)
+  revision AssetRevision? @relation("RevisionUsages", fields: [revisionId, assetId], references: [id, assetId], onDelete: Restrict)
+  user     User?          @relation("UserUsages", fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([assetId, action, createdAt(sort: Desc)])
+  @@index([userId, action])
+  @@map("asset_usages_templatedhub")
+}
+
+model StorageDeletionJob {
+  id          String    @id @default(uuid()) @db.Uuid
+  storageKey  String    @map("storage_key") @db.VarChar(500)
+  bucketName  String    @default("sBLOOM_templateshub") @map("bucket_name") @db.VarChar(100)
+  status      JobStatus @default(PENDING)
+  attempts    Int       @default(0)
+  maxAttempts Int       @default(5) @map("max_attempts")
+  lastError   String?   @map("last_error") @db.Text
+  createdAt   DateTime  @default(now()) @map("created_at")
+  processedAt DateTime? @map("processed_at")
+
+  @@index([status, createdAt])
+  @@map("storage_deletion_jobs_templatedhub")
+}
+
+model BrandKit {
+  id          String   @id @default(uuid()) @db.Uuid
+  name        String   @db.VarChar(255)
+  shortName   String?  @map("short_name") @db.VarChar(100)
+  tagline     String?  @db.VarChar(500)
+  description String?  @db.Text
+  colors      Json     @default("{}")
+  typography  Json     @default("{}")
+  contact     Json     @default("{}")
+  socialLinks Json     @default("{}") @map("social_links")
+  logoAssets  Json     @default("{}") @map("logo_assets")
+  business    Json     @default("{}")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @default(now()) @updatedAt @map("updated_at")
+
+  @@index([name])
+  @@index([createdAt(sort: Desc)])
+  @@map("brand_kits_templatedhub")
+}
+
+model Campaign {
+  id          String   @id @default(uuid()) @db.Uuid
+  name        String   @db.VarChar(255)
+  description String?  @db.Text
+  isArchived  Boolean  @default(false) @map("is_archived")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @default(now()) @updatedAt @map("updated_at")
+
+  assets    CampaignAsset[]
+  schedules ContentSchedule[]
+
+  @@index([name])
+  @@index([isArchived])
+  @@index([createdAt(sort: Desc)])
+  @@map("campaigns_templatedhub")
+}
+
+model CampaignAsset {
+  id              String   @id @default(uuid()) @db.Uuid
+  campaignId      String   @map("campaign_id") @db.Uuid
+  customizationId String?  @map("customization_id") @db.Uuid
+  title           String   @db.VarChar(255)
+  assetType       String   @map("asset_type") @db.VarChar(50)
+  classification  String?  @db.VarChar(50)
+  thumbnailUrl    String?  @map("thumbnail_url") @db.Text
+  brandKitId      String?  @map("brand_kit_id") @db.Uuid
+  brandKitName    String?  @map("brand_kit_name") @db.VarChar(255)
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @default(now()) @updatedAt @map("updated_at")
+
+  campaign  Campaign          @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  schedules ContentSchedule[]
+
+  @@index([campaignId])
+  @@index([customizationId])
+  @@map("campaign_assets_templatedhub")
+}
+
+model ContentSchedule {
+  id                  String    @id @default(uuid()) @db.Uuid
+  campaignId          String    @map("campaign_id") @db.Uuid
+  campaignAssetId     String    @map("campaign_asset_id") @db.Uuid
+  scheduledDate       String    @map("scheduled_date") @db.VarChar(10)
+  scheduledTime       String?   @map("scheduled_time") @db.VarChar(20)
+  channel             String    @db.VarChar(50)
+  status              String    @default("PLANNED") @db.VarChar(50)
+  notes               String?   @db.Text
+  publishedManuallyAt DateTime? @map("published_manually_at")
+  createdAt           DateTime  @default(now()) @map("created_at")
+  updatedAt           DateTime  @default(now()) @updatedAt @map("updated_at")
+
+  campaign      Campaign      @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  campaignAsset CampaignAsset @relation(fields: [campaignAssetId], references: [id], onDelete: Cascade)
+
+  @@index([campaignId])
+  @@index([campaignAssetId])
+  @@index([scheduledDate])
+  @@index([status])
+  @@index([channel])
+  @@map("content_schedule_templatedhub")
+}
+
+

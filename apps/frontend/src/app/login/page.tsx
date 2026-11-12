@@ -90,7 +90,6 @@ function LoginForm() {
           <p>Development Credentials:</p>
           <p>admin@sbloom.com (Admin)</p>
           <p>contributor@sbloom.com (Contributor)</p>
-          <p>viewer@sbloom.com (Viewer)</p>
           <p>Password: password123</p>
         </div>
       </CardFooter>

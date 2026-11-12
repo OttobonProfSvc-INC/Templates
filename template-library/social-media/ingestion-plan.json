@@ -1,0 +1,3048 @@
+{
+  "manifestVersion": "1.0.0",
+  "mode": "LOCAL_DRY_RUN",
+  "generatedAt": "2026-10-21T00:00:00.000Z",
+  "totalAssets": 56,
+  "totalFiles": 56,
+  "totalSizeBytes": 34897610,
+  "assetTypeCode": "social-post",
+  "targetStorageBucket": "sBLOOM_templateshub",
+  "categoryCounts": {
+    "coaching": 16,
+    "colleges": 21,
+    "schools": 19
+  },
+  "prerequisites": {
+    "actor": "NOT_RESOLVED_LOCAL_MODE",
+    "assetType": "social-post / LIVE_ID_NOT_RESOLVED",
+    "remoteDatabase": "NOT_CHECKED",
+    "remoteStorage": "NOT_CHECKED",
+    "plannedRemoteWrites": "ZERO"
+  },
+  "assets": [
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "1.jpg",
+      "sourcePath": "template-library/social-media/Coaching/1.jpg",
+      "asset": {
+        "id": "3efae260-4045-46e9-af7e-2fa2820a313d",
+        "slug": "coaching-post-1",
+        "legacyId": "local-coaching-1.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": true,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "e8888895-b99b-480b-a363-e94fd1149e22",
+        "revisionNumber": 1,
+        "title": "Coaching Post Template 1",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 800,
+            "height": 1072,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/1.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "7f25b342-87d3-416f-a150-22d8ada21250",
+          "storageKey": "templates/social-media/coaching/1.jpg",
+          "fileName": "1.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 105480,
+          "checksumSha256": "96c7966ef7ba525e3ef3f5fac617c34fd2328c66e204a0e11d02ee258a845326",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 800,
+        "height": 1072,
+        "aspectRatio": 0.746,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "10.jpg",
+      "sourcePath": "template-library/social-media/Coaching/10.jpg",
+      "asset": {
+        "id": "ae30f039-44c4-4142-ab24-e64f1bb55314",
+        "slug": "coaching-post-2",
+        "legacyId": "local-coaching-10.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": true,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "cdd746fa-e7c3-447d-ac46-d6d3fd633e0a",
+        "revisionNumber": 1,
+        "title": "Coaching Post Template 2",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 1308,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/10.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "894410f6-fc37-4d7d-a0a2-fa476d20e840",
+          "storageKey": "templates/social-media/coaching/10.jpg",
+          "fileName": "10.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 156891,
+          "checksumSha256": "1e9069db1acb5130e7199c5afca786b3408a5dc842d821caa81dee66438c30ec",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 1308,
+        "aspectRatio": 0.563,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "2.jpg",
+      "sourcePath": "template-library/social-media/Coaching/2.jpg",
+      "asset": {
+        "id": "53dd47f5-851d-4e26-a8d2-b8c344c747a7",
+        "slug": "coaching-post-3",
+        "legacyId": "local-coaching-2.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "9de4591c-72fa-4177-ad54-b07cd14e0e66",
+        "revisionNumber": 1,
+        "title": "Coaching Post Template 3",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 736,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/2.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "e41702f3-5489-4550-a2d6-3a4444412570",
+          "storageKey": "templates/social-media/coaching/2.jpg",
+          "fileName": "2.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 89218,
+          "checksumSha256": "f6c5bc3314f8044322df7cbbf0718ba6d2fc088ba33f83bce5b9ceb2b9859862",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 736,
+        "aspectRatio": 1,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "3.jpg",
+      "sourcePath": "template-library/social-media/Coaching/3.jpg",
+      "asset": {
+        "id": "87358406-48dd-4d12-ae77-a4584c4f1116",
+        "slug": "coaching-post-4",
+        "legacyId": "local-coaching-3.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "370b4e31-a11e-4115-a374-de7811aa193b",
+        "revisionNumber": 1,
+        "title": "Coaching Post Template 4",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 970,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/3.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "535f2c39-fb6a-462c-a8f2-9baeedd8ccf8",
+          "storageKey": "templates/social-media/coaching/3.jpg",
+          "fileName": "3.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 120989,
+          "checksumSha256": "0d183bb449665ab42362ec4a92ad6bc00e91b3c19edaaa8f08d30ca1831900f2",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 970,
+        "aspectRatio": 0.759,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "4.jpg",
+      "sourcePath": "template-library/social-media/Coaching/4.jpg",
+      "asset": {
+        "id": "beaa9b81-a316-48ba-af57-468e905019d3",
+        "slug": "coaching-post-5",
+        "legacyId": "local-coaching-4.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "9362f230-0d63-44cb-a6be-a8c63f8ac7b3",
+        "revisionNumber": 1,
+        "title": "Coaching Post Template 5",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/4.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "52e43e67-0928-46e9-a31f-2d4729c628f4",
+          "storageKey": "templates/social-media/coaching/4.jpg",
+          "fileName": "4.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 105451,
+          "checksumSha256": "0f26d211afbb160e911ba72abc626209ef018b8ae6bc173a84ade1050c94453f",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "5.jpg",
+      "sourcePath": "template-library/social-media/Coaching/5.jpg",
+      "asset": {
+        "id": "01fa988c-1928-49b0-a9ab-b8e82a8b09ce",
+        "slug": "coaching-post-6",
+        "legacyId": "local-coaching-5.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "1ce81df7-0ea4-44fc-ade2-2d65e992d019",
+        "revisionNumber": 1,
+        "title": "Coaching Post Template 6",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 736,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/5.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "710a344c-b5f3-4e70-a936-e14d882ffad9",
+          "storageKey": "templates/social-media/coaching/5.jpg",
+          "fileName": "5.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 90146,
+          "checksumSha256": "1dca63feef75bea960b7bc1f7cdbc7a11d6a3abcc41a5e769cd57ab9be5962e9",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 736,
+        "aspectRatio": 1,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "6.jpg",
+      "sourcePath": "template-library/social-media/Coaching/6.jpg",
+      "asset": {
+        "id": "1e17da98-e177-4a7b-af73-532e367d30d4",
+        "slug": "coaching-post-7",
+        "legacyId": "local-coaching-6.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "c87073ff-3713-42b6-a513-085eb744b22e",
+        "revisionNumber": 1,
+        "title": "Coaching Post Template 7",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/6.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "4b48b28f-83f4-4b34-af0d-9399cecb2da0",
+          "storageKey": "templates/social-media/coaching/6.jpg",
+          "fileName": "6.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 132602,
+          "checksumSha256": "161ba39cbe008e9607ff96819a680160671ab9cc6198a8bc8a3eb14f6ec93726",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "6faa1731e04ccc1304fc77dd4d7c466a.jpg",
+      "sourcePath": "template-library/social-media/Coaching/6faa1731e04ccc1304fc77dd4d7c466a.jpg",
+      "asset": {
+        "id": "3d0277c5-34ff-4421-adac-b78b4fc77bd1",
+        "slug": "coaching-post-8",
+        "legacyId": "local-coaching-6faa1731e04ccc1304fc77dd4d7c466a.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "f25c79ca-3999-41b9-adbe-1fcbbff74588",
+        "revisionNumber": 1,
+        "title": "Coaching - faa1731e04ccc1304fc77dd4d7c466a",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1122,
+            "height": 1402,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/6faa1731e04ccc1304fc77dd4d7c466a.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "70ca1450-fe11-4abf-ab6d-2944c5ab8a81",
+          "storageKey": "templates/social-media/coaching/6faa1731e04ccc1304fc77dd4d7c466a.jpg",
+          "fileName": "6faa1731e04ccc1304fc77dd4d7c466a.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 198989,
+          "checksumSha256": "2d0226063d920ffef3b6d69dcff413331e333ec7ffda9fda4f17f286e21ec1d1",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1122,
+        "height": 1402,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "7.jpg",
+      "sourcePath": "template-library/social-media/Coaching/7.jpg",
+      "asset": {
+        "id": "2089a567-57bf-4e20-addf-780373b732d8",
+        "slug": "coaching-post-9",
+        "legacyId": "local-coaching-7.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "0ba44f0b-0cd0-44bc-af88-1df974212737",
+        "revisionNumber": 1,
+        "title": "Coaching Post Template 9",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 736,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/7.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "7fde611a-008b-4cb2-ad86-c719fc5ed504",
+          "storageKey": "templates/social-media/coaching/7.jpg",
+          "fileName": "7.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 75352,
+          "checksumSha256": "d7b505e63b47c8d9b32a58b6e6d3a125615d7c5b4684f6809f4cc4880d184e21",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 736,
+        "aspectRatio": 1,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "8.jpg",
+      "sourcePath": "template-library/social-media/Coaching/8.jpg",
+      "asset": {
+        "id": "68f3334e-fd5c-4d28-a806-77e73050e44b",
+        "slug": "coaching-post-10",
+        "legacyId": "local-coaching-8.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "0b75b9df-28b5-45aa-aed2-6fa0db529d57",
+        "revisionNumber": 1,
+        "title": "Coaching Post Template 10",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 736,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/8.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "ef42a509-45bc-4a06-ae54-e0b748632540",
+          "storageKey": "templates/social-media/coaching/8.jpg",
+          "fileName": "8.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 108705,
+          "checksumSha256": "1bbad78b40c94875f87b2723af328d35a917746cff56867cf4d13b0f70afe2a6",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 736,
+        "aspectRatio": 1,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "9.jpg",
+      "sourcePath": "template-library/social-media/Coaching/9.jpg",
+      "asset": {
+        "id": "0c41e88f-a82a-499b-a42e-6f2a15fb025b",
+        "slug": "coaching-post-11",
+        "legacyId": "local-coaching-9.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "5796cd9f-5289-430f-a83a-82e8b05ab5ab",
+        "revisionNumber": 1,
+        "title": "Coaching Post Template 11",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1080,
+            "height": 1350,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/9.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "77424bb7-994c-4f14-a3f6-9c0c51166fac",
+          "storageKey": "templates/social-media/coaching/9.jpg",
+          "fileName": "9.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 132720,
+          "checksumSha256": "9e78c33dca620e40e9e5abcbc5152966458d2cf7fb719b7b710e899099ebded8",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1080,
+        "height": 1350,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "Coaching1.png",
+      "sourcePath": "template-library/social-media/Coaching/Coaching1.png",
+      "asset": {
+        "id": "a0cdffab-79a9-4a99-a908-45997b02b00b",
+        "slug": "coaching-post-12",
+        "legacyId": "local-coaching-Coaching1.png",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "2b0b404f-1e7f-4825-aaba-9a79c3ca772d",
+        "revisionNumber": 1,
+        "title": "Coaching - Coaching1",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1536,
+            "height": 1024,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/Coaching1.png"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "e842e3be-fa7f-4fa5-a6dc-eb0696012e8e",
+          "storageKey": "templates/social-media/coaching/coaching1.png",
+          "fileName": "Coaching1.png",
+          "mimeType": "image/png",
+          "sizeBytes": 2588570,
+          "checksumSha256": "d78cd385a824c722216dc757c9faf2b4c8eab566b4e3e48af8e9587a4221997b",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": 1.5,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "Coaching2.png",
+      "sourcePath": "template-library/social-media/Coaching/Coaching2.png",
+      "asset": {
+        "id": "bb68b1c5-97eb-4026-a81c-599736b08124",
+        "slug": "coaching-post-13",
+        "legacyId": "local-coaching-Coaching2.png",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "7775a142-dcbf-4cf3-a9b2-9c51e092a349",
+        "revisionNumber": 1,
+        "title": "Coaching - Coaching2",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1536,
+            "height": 1024,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/Coaching2.png"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "fd71b902-12f9-4cdc-a777-e11854f91f66",
+          "storageKey": "templates/social-media/coaching/coaching2.png",
+          "fileName": "Coaching2.png",
+          "mimeType": "image/png",
+          "sizeBytes": 2718649,
+          "checksumSha256": "4d4fe348b9b92ecece97168a771d085eb62811d1a7f363ad074092f9e6419f09",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": 1.5,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "Coaching3.png",
+      "sourcePath": "template-library/social-media/Coaching/Coaching3.png",
+      "asset": {
+        "id": "8c4b1193-3677-4c77-ab51-2061ce6e94b2",
+        "slug": "coaching-post-14",
+        "legacyId": "local-coaching-Coaching3.png",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "c1ebc469-e44e-4f05-aa8b-e617a40c14f1",
+        "revisionNumber": 1,
+        "title": "Coaching - Coaching3",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1977,
+            "height": 795,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/Coaching3.png"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "5362e259-db7f-4f93-adae-24ce4ce9e1a1",
+          "storageKey": "templates/social-media/coaching/coaching3.png",
+          "fileName": "Coaching3.png",
+          "mimeType": "image/png",
+          "sizeBytes": 2675356,
+          "checksumSha256": "2f6b108763267fb80b17f887e990ba316850f1d9f5e31df5f91f1caf95c3cc83",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1977,
+        "height": 795,
+        "aspectRatio": 2.487,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "Coaching4.png",
+      "sourcePath": "template-library/social-media/Coaching/Coaching4.png",
+      "asset": {
+        "id": "84d857c6-b797-4ecb-a23b-fe2e9f47ca22",
+        "slug": "coaching-post-15",
+        "legacyId": "local-coaching-Coaching4.png",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "7b082c34-69ef-49ca-a8f1-c2bc25ccdb78",
+        "revisionNumber": 1,
+        "title": "Coaching - Coaching4",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1536,
+            "height": 1024,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/Coaching4.png"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "8f051045-6711-4468-a866-1fce55701816",
+          "storageKey": "templates/social-media/coaching/coaching4.png",
+          "fileName": "Coaching4.png",
+          "mimeType": "image/png",
+          "sizeBytes": 2670914,
+          "checksumSha256": "390d57747ecfea3517d51aed0fd8abf95a52b9f497debe3235143f2eab136ae9",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": 1.5,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Coaching",
+      "originalFileName": "🌍 How do you turn your dream of studying abroad into a real opportunity_.jpeg",
+      "sourcePath": "template-library/social-media/Coaching/🌍 How do you turn your dream of studying abroad into a real opportunity_.jpeg",
+      "asset": {
+        "id": "d15ba39c-cea4-4cdb-a13d-64ebdaceb7eb",
+        "slug": "coaching-post-16",
+        "legacyId": "local-coaching-🌍 How do you turn your dream of studying abroad into a real opportunity_.jpeg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "f7e578cf-b7a3-4d4b-a4b4-c079342d7ff3",
+        "revisionNumber": 1,
+        "title": "Coaching - 🌍 How do you turn your dream of studying abroad into a real opportunity_",
+        "description": "Customizable social media post design for Coaching. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 922,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Coaching/%F0%9F%8C%8D%20How%20do%20you%20turn%20your%20dream%20of%20studying%20abroad%20into%20a%20real%20opportunity_.jpeg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "27f97f19-a32b-43e5-ae90-24c367685198",
+          "storageKey": "templates/social-media/coaching/how-do-you-turn-your-dream-of-studying-abroad-into-a-real-op.jpeg",
+          "fileName": "🌍 How do you turn your dream of studying abroad into a real opportunity_.jpeg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 103297,
+          "checksumSha256": "c19e937b9785de36a3cd988705ad24832dc562b1cf2360dab81d515f28b452d3",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 922,
+        "aspectRatio": 0.798,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "1.jpg",
+      "sourcePath": "template-library/social-media/Colleges/1.jpg",
+      "asset": {
+        "id": "c39c60e6-f06b-4be0-a062-21bd99367e71",
+        "slug": "colleges-post-1",
+        "legacyId": "local-colleges-1.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": true,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "6ddef24e-5dc6-4d50-a514-3cf2216f51e6",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 1",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 735,
+            "height": 919,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/1.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "63ee4ed9-90a3-4d45-ab40-6ddfa464887a",
+          "storageKey": "templates/social-media/colleges/1.jpg",
+          "fileName": "1.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 91003,
+          "checksumSha256": "d909175215a55c421aed1d2d18286bf296757c40d48f4eae6728f4a6e984bfd4",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 735,
+        "height": 919,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "10.jpg",
+      "sourcePath": "template-library/social-media/Colleges/10.jpg",
+      "asset": {
+        "id": "50726c36-7b35-46d8-a6bc-29a7d23f1136",
+        "slug": "colleges-post-2",
+        "legacyId": "local-colleges-10.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": true,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "a7165622-ce4b-46f9-a6fe-8bc5a0692519",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 2",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 1308,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/10.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "1aaf4dd8-9417-43ec-ad1b-59303e03b272",
+          "storageKey": "templates/social-media/colleges/10.jpg",
+          "fileName": "10.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 84018,
+          "checksumSha256": "2114f017ce83868c4acea03facf249abb5a86c36b96e994747b0436088b7ecca",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 1308,
+        "aspectRatio": 0.563,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "11.jpg",
+      "sourcePath": "template-library/social-media/Colleges/11.jpg",
+      "asset": {
+        "id": "f227405e-ba66-4d1c-a83c-b433b4b761e5",
+        "slug": "colleges-post-3",
+        "legacyId": "local-colleges-11.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "2b533119-1567-4090-a058-eee3d9dd9313",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 3",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/11.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "00a39bf5-bf62-4f08-a43f-df96927ba08c",
+          "storageKey": "templates/social-media/colleges/11.jpg",
+          "fileName": "11.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 159676,
+          "checksumSha256": "943b051f5425abbf253ea98d126220f8edf3da536ee6730e6690ab1627aac69b",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "12.jpg",
+      "sourcePath": "template-library/social-media/Colleges/12.jpg",
+      "asset": {
+        "id": "3666295f-8886-4d38-adec-cc039b008a99",
+        "slug": "colleges-post-4",
+        "legacyId": "local-colleges-12.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "1f51997e-b30d-4317-a6cf-f67f781fdd3f",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 4",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/12.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "e004a783-f04b-4f90-a0d0-525eccde6cc4",
+          "storageKey": "templates/social-media/colleges/12.jpg",
+          "fileName": "12.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 102347,
+          "checksumSha256": "66083ff148b48ed6a4ca32bff6ec56b193f5b246d97899e604dcddd6d7c26c5d",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "13.jpg",
+      "sourcePath": "template-library/social-media/Colleges/13.jpg",
+      "asset": {
+        "id": "71cbe7ef-6598-43c6-a339-e744630b43c0",
+        "slug": "colleges-post-5",
+        "legacyId": "local-colleges-13.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "6587787e-9a47-496a-ae18-76048c0b0add",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 5",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1200,
+            "height": 1800,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/13.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "51a40e93-bb50-4cd6-a5ac-df87bbe43925",
+          "storageKey": "templates/social-media/colleges/13.jpg",
+          "fileName": "13.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 245693,
+          "checksumSha256": "358f68fa645230232d1dd7ca5239f29920d96386a5399c5ae81b8f106ec7bfd1",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1200,
+        "height": 1800,
+        "aspectRatio": 0.667,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "14.jpg",
+      "sourcePath": "template-library/social-media/Colleges/14.jpg",
+      "asset": {
+        "id": "8fba246e-7696-4927-ab65-22ad2d7f51c9",
+        "slug": "colleges-post-6",
+        "legacyId": "local-colleges-14.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "59c1fc0c-5e82-42a6-a8bd-9ed3c9d9cbca",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 6",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1200,
+            "height": 1500,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/14.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "4b31d14a-1a60-4222-a43e-a71574dff588",
+          "storageKey": "templates/social-media/colleges/14.jpg",
+          "fileName": "14.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 156042,
+          "checksumSha256": "4fdf9b0ec74e943098378bf32bcea6987f01b0b7d452dcebeaa9f15465e3e100",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1200,
+        "height": 1500,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "15.jpg",
+      "sourcePath": "template-library/social-media/Colleges/15.jpg",
+      "asset": {
+        "id": "af4fec4f-b779-4df4-a298-976ff9db1b8e",
+        "slug": "colleges-post-7",
+        "legacyId": "local-colleges-15.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "de7b7f37-05f3-4b04-a6fc-41252789e7b5",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 7",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1200,
+            "height": 1200,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/15.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "8611d779-f741-427c-adc8-3d27d2680344",
+          "storageKey": "templates/social-media/colleges/15.jpg",
+          "fileName": "15.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 116754,
+          "checksumSha256": "8f85c92f629e7f0579a8ea01cb4caf66a779427845f8421d6507a5c88c0246ed",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1200,
+        "height": 1200,
+        "aspectRatio": 1,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "16.jpg",
+      "sourcePath": "template-library/social-media/Colleges/16.jpg",
+      "asset": {
+        "id": "77050652-249c-46e9-a382-7b45b0b00a01",
+        "slug": "colleges-post-8",
+        "legacyId": "local-colleges-16.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "3fc63704-76d2-42e1-a5c8-d7339558a4e9",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 8",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/16.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "5175ad97-1fa6-4fa0-a160-2b378a398f19",
+          "storageKey": "templates/social-media/colleges/16.jpg",
+          "fileName": "16.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 79704,
+          "checksumSha256": "24bff214f0bbd26b8e96414f1a003fa02ca270ed54595263f55c4160175bffcf",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "2.jpg",
+      "sourcePath": "template-library/social-media/Colleges/2.jpg",
+      "asset": {
+        "id": "7ba0b1a6-be21-4299-a5ca-6eca3be87ac1",
+        "slug": "colleges-post-9",
+        "legacyId": "local-colleges-2.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "a92b39e1-5bfa-4e59-abec-c01a2b601cb5",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 9",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 736,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/2.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "29dfbc60-df3e-4570-a2ec-209e48ff88ef",
+          "storageKey": "templates/social-media/colleges/2.jpg",
+          "fileName": "2.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 46266,
+          "checksumSha256": "859b0f899d528a461b1b5f7ccdf7dec2ecd6f29e4aab6694dba6ddfa2fe30fe1",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 736,
+        "aspectRatio": 1,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "3.jpg",
+      "sourcePath": "template-library/social-media/Colleges/3.jpg",
+      "asset": {
+        "id": "99c53b5c-ceca-4aa3-a7ca-630365bcc1e5",
+        "slug": "colleges-post-10",
+        "legacyId": "local-colleges-3.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "697c18c8-b6cd-476c-a2d4-2231c9aed14b",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 10",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1080,
+            "height": 1350,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/3.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "01a791f4-5f9e-4e50-ae9a-6d80ff344d44",
+          "storageKey": "templates/social-media/colleges/3.jpg",
+          "fileName": "3.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 181826,
+          "checksumSha256": "f1e900fdf2fa5153d9109c948e0782ef2385ae2543b8cdaa16c5880b3530629a",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1080,
+        "height": 1350,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "4.jpg",
+      "sourcePath": "template-library/social-media/Colleges/4.jpg",
+      "asset": {
+        "id": "8ee2850e-1766-4a77-a64d-20a7b53a55e0",
+        "slug": "colleges-post-11",
+        "legacyId": "local-colleges-4.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "54e1782e-cc2e-482c-a599-12582a02e5ae",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 11",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 736,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/4.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "93f5f0e1-0454-410f-a49a-58880851ff05",
+          "storageKey": "templates/social-media/colleges/4.jpg",
+          "fileName": "4.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 84136,
+          "checksumSha256": "6d3437d5dce41c7fa7162e7ae503844ce5d8ca9e51b4e25fde6eaa7f79a036a7",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 736,
+        "aspectRatio": 1,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "5.jpg",
+      "sourcePath": "template-library/social-media/Colleges/5.jpg",
+      "asset": {
+        "id": "623c24cd-caf9-4a5a-a5a5-61a7f51150e6",
+        "slug": "colleges-post-12",
+        "legacyId": "local-colleges-5.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "bb182d54-49ce-4aaa-a680-c6e2826e99f5",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 12",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1200,
+            "height": 1500,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/5.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "e5066c9b-612c-49b7-ab84-3cbdcc4afbd8",
+          "storageKey": "templates/social-media/colleges/5.jpg",
+          "fileName": "5.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 181498,
+          "checksumSha256": "150b9d41cb78c73f15697d061969da1ffc489ab33143749d8e7ba92e0fef7cc9",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1200,
+        "height": 1500,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "6.jpg",
+      "sourcePath": "template-library/social-media/Colleges/6.jpg",
+      "asset": {
+        "id": "6e32f4fa-16e3-4c23-a8ea-9aa959a324bc",
+        "slug": "colleges-post-13",
+        "legacyId": "local-colleges-6.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "f35db410-60d1-4cac-a19c-4655130f8a49",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 13",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 1308,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/6.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "87ebdc25-5c5e-4ab0-a15f-1680732e94f9",
+          "storageKey": "templates/social-media/colleges/6.jpg",
+          "fileName": "6.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 102735,
+          "checksumSha256": "5ae57b0f6d45bb3fe9677dc48454b687a47acd59297155d62553ed7e5660a6a4",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 1308,
+        "aspectRatio": 0.563,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "7.jpg",
+      "sourcePath": "template-library/social-media/Colleges/7.jpg",
+      "asset": {
+        "id": "d9548285-646b-494a-a451-a7883de800ca",
+        "slug": "colleges-post-14",
+        "legacyId": "local-colleges-7.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "d0f84336-1774-4c85-ad7b-1b711bb3f9b9",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 14",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 917,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/7.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "a4e48268-578e-4bf3-ac15-14baceb67b3f",
+          "storageKey": "templates/social-media/colleges/7.jpg",
+          "fileName": "7.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 120428,
+          "checksumSha256": "9afc8d2e785404f5c21a373ec78f688c29836ba50637738526cd9af2561d7e7b",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 917,
+        "aspectRatio": 0.803,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "8.jpg",
+      "sourcePath": "template-library/social-media/Colleges/8.jpg",
+      "asset": {
+        "id": "2d7fc07e-4708-437f-ab64-d41aa1d50f87",
+        "slug": "colleges-post-15",
+        "legacyId": "local-colleges-8.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "05bdcd2b-50d9-41a6-a8a8-d789d9a9c501",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 15",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1200,
+            "height": 1200,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/8.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "d83b8793-d2c8-4a44-a83b-463c8f61df78",
+          "storageKey": "templates/social-media/colleges/8.jpg",
+          "fileName": "8.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 120065,
+          "checksumSha256": "ea338e9316f13cc31e91c6619c15756562d49d8d9f663a3e6fefaac9d4694c63",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1200,
+        "height": 1200,
+        "aspectRatio": 1,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "9.jpg",
+      "sourcePath": "template-library/social-media/Colleges/9.jpg",
+      "asset": {
+        "id": "8e2361a5-f9ab-4595-ae7c-4d1906f71297",
+        "slug": "colleges-post-16",
+        "legacyId": "local-colleges-9.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "e97e9d61-7d53-4459-a53e-1498f98d3e3b",
+        "revisionNumber": 1,
+        "title": "Colleges Post Template 16",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1200,
+            "height": 1500,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/9.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "296e54f1-774d-4c32-ac4c-2ee299c08f72",
+          "storageKey": "templates/social-media/colleges/9.jpg",
+          "fileName": "9.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 65632,
+          "checksumSha256": "d36668aaa73722135bad52ed6a34ec17a312bd2fd059e5054b9d0bfa0a443914",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1200,
+        "height": 1500,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "College1.png",
+      "sourcePath": "template-library/social-media/Colleges/College1.png",
+      "asset": {
+        "id": "840574da-2510-4e57-a889-510610870645",
+        "slug": "colleges-post-17",
+        "legacyId": "local-colleges-College1.png",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "135edf77-942e-48c5-aecd-6367752dbbc9",
+        "revisionNumber": 1,
+        "title": "Colleges - College1",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1024,
+            "height": 1536,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/College1.png"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "e506818a-97d2-4b02-a8c2-67482175f666",
+          "storageKey": "templates/social-media/colleges/college1.png",
+          "fileName": "College1.png",
+          "mimeType": "image/png",
+          "sizeBytes": 2805319,
+          "checksumSha256": "6fd01a0d61059b3460ff4a365c9ab81fa5607c69d93a2772f6f5ba1875963fc5",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1024,
+        "height": 1536,
+        "aspectRatio": 0.667,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "College2.png",
+      "sourcePath": "template-library/social-media/Colleges/College2.png",
+      "asset": {
+        "id": "1386d917-8074-4906-a707-6498678b54b6",
+        "slug": "colleges-post-18",
+        "legacyId": "local-colleges-College2.png",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "3ff63595-a260-4821-a5fc-5eed2f165fd1",
+        "revisionNumber": 1,
+        "title": "Colleges - College2",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1024,
+            "height": 1536,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/College2.png"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "7a0ccc35-342f-4092-a247-e375e4917d35",
+          "storageKey": "templates/social-media/colleges/college2.png",
+          "fileName": "College2.png",
+          "mimeType": "image/png",
+          "sizeBytes": 2750547,
+          "checksumSha256": "b7484bfb90c55903d69eeb03a6235e924015a38a19bb6a0c59850a38c24db5e8",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1024,
+        "height": 1536,
+        "aspectRatio": 0.667,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "College3.png",
+      "sourcePath": "template-library/social-media/Colleges/College3.png",
+      "asset": {
+        "id": "4af5509a-83c1-487d-a1dd-f1360dd86c0b",
+        "slug": "colleges-post-19",
+        "legacyId": "local-colleges-College3.png",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "249abd2f-0578-469a-a498-46feba09b3d7",
+        "revisionNumber": 1,
+        "title": "Colleges - College3",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1024,
+            "height": 1536,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/College3.png"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "b44b6403-4401-478f-a83b-0a993ccd4d4e",
+          "storageKey": "templates/social-media/colleges/college3.png",
+          "fileName": "College3.png",
+          "mimeType": "image/png",
+          "sizeBytes": 2816187,
+          "checksumSha256": "3b8779e59b61fbce8efe20e0a752183ef8ef964d7ccc5c6d7468e2d562049a67",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1024,
+        "height": 1536,
+        "aspectRatio": 0.667,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "College4.png",
+      "sourcePath": "template-library/social-media/Colleges/College4.png",
+      "asset": {
+        "id": "aa1639f5-c6ce-4ff2-ad84-2e4f9d3df354",
+        "slug": "colleges-post-20",
+        "legacyId": "local-colleges-College4.png",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "e335ef3e-bfa9-49ac-a234-be876d50e596",
+        "revisionNumber": 1,
+        "title": "Colleges - College4",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1122,
+            "height": 1402,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/College4.png"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "bba36298-eed1-4691-a475-4e40bfb7ad6c",
+          "storageKey": "templates/social-media/colleges/college4.png",
+          "fileName": "College4.png",
+          "mimeType": "image/png",
+          "sizeBytes": 2738136,
+          "checksumSha256": "aa508ee3f83ac7bf59ad346cfd32c39b33e7d54601dc39136662f20338262d6a",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1122,
+        "height": 1402,
+        "aspectRatio": 0.8,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Colleges",
+      "originalFileName": "e67c7d08e72f37ef0ddbd5a485131f0e.jpg",
+      "sourcePath": "template-library/social-media/Colleges/e67c7d08e72f37ef0ddbd5a485131f0e.jpg",
+      "asset": {
+        "id": "4ea76e7f-2d70-4638-af95-0da754d35cc4",
+        "slug": "colleges-post-21",
+        "legacyId": "local-colleges-e67c7d08e72f37ef0ddbd5a485131f0e.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "66e72ae9-2579-46cb-a83a-858ba9a90f99",
+        "revisionNumber": 1,
+        "title": "Colleges - e67c7d08e72f37ef0ddbd5a485131f0e",
+        "description": "Customizable social media post design for Colleges. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1200,
+            "height": 1500,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Colleges/e67c7d08e72f37ef0ddbd5a485131f0e.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "4bcb4b29-8e56-424b-a5e5-b0d9625139c0",
+          "storageKey": "templates/social-media/colleges/e67c7d08e72f37ef0ddbd5a485131f0e.jpg",
+          "fileName": "e67c7d08e72f37ef0ddbd5a485131f0e.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 159126,
+          "checksumSha256": "2252a74008be390a790efabd735d69cd91c1b10a23ad62d99d63755ac383d03f",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1200,
+        "height": 1500,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "1.PNG",
+      "sourcePath": "template-library/social-media/Schools/1.PNG",
+      "asset": {
+        "id": "e8990559-6073-490d-a125-81c2db0e0884",
+        "slug": "schools-post-1",
+        "legacyId": "local-schools-1.PNG",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": true,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "be660d02-2b2a-47ce-ae71-564de2e0458f",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 1",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1122,
+            "height": 1402,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/1.PNG"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "b5d54afb-05a5-4a45-a647-5b115e145e1a",
+          "storageKey": "templates/social-media/schools/1.png",
+          "fileName": "1.PNG",
+          "mimeType": "image/png",
+          "sizeBytes": 2357855,
+          "checksumSha256": "e776fa03d6551e8b4fbd2e154e37094740a0d268abe65d7f80257693ea7466c3",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1122,
+        "height": 1402,
+        "aspectRatio": 0.8,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "10.jpg",
+      "sourcePath": "template-library/social-media/Schools/10.jpg",
+      "asset": {
+        "id": "2c17a85e-5433-4fb4-a783-f4ae8e8dcc80",
+        "slug": "schools-post-2",
+        "legacyId": "local-schools-10.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": true,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "9a956676-d99d-4d5b-ac92-b409743713f3",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 2",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 735,
+            "height": 919,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/10.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "3c094189-8a04-4faa-aa77-832cd16accb5",
+          "storageKey": "templates/social-media/schools/10.jpg",
+          "fileName": "10.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 77260,
+          "checksumSha256": "0198927148d474abfe703ca94a15daac44cd5ab769fb2e2dcd8c6fb293efe6b6",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 735,
+        "height": 919,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "11.jpg",
+      "sourcePath": "template-library/social-media/Schools/11.jpg",
+      "asset": {
+        "id": "c3c6c12a-b996-4b18-a2e7-400cc786f290",
+        "slug": "schools-post-3",
+        "legacyId": "local-schools-11.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "e43a0113-0147-4441-a55c-27031d00094b",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 3",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 735,
+            "height": 980,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/11.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "bf48c009-2d3c-4ad6-a3e0-31bfeb23029b",
+          "storageKey": "templates/social-media/schools/11.jpg",
+          "fileName": "11.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 55436,
+          "checksumSha256": "e4536fe3cba1a0b10f6f0d239111412fd1801184ee64874a11cdfef1e49daa5c",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 735,
+        "height": 980,
+        "aspectRatio": 0.75,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "12.jpg",
+      "sourcePath": "template-library/social-media/Schools/12.jpg",
+      "asset": {
+        "id": "98df9abe-199c-41b1-a0e1-1d657776d549",
+        "slug": "schools-post-4",
+        "legacyId": "local-schools-12.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "bb030e57-229b-4810-ad62-de44096f093d",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 4",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1080,
+            "height": 1350,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/12.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "f285a90b-69c9-43c5-a57d-f677188464de",
+          "storageKey": "templates/social-media/schools/12.jpg",
+          "fileName": "12.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 161249,
+          "checksumSha256": "6f8c2db3b689c4ab8c5f4f280cf0c4f6c2ce096afc3769c858141edaf17f7efc",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1080,
+        "height": 1350,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "13.jpg",
+      "sourcePath": "template-library/social-media/Schools/13.jpg",
+      "asset": {
+        "id": "65ade572-9d65-4924-ac8d-d5f9f69d2e99",
+        "slug": "schools-post-5",
+        "legacyId": "local-schools-13.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "2ce56b07-dd79-4a05-acab-b5c3d730bd25",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 5",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/13.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "20b08d3c-d09b-4bfe-aca0-6a4019b5b830",
+          "storageKey": "templates/social-media/schools/13.jpg",
+          "fileName": "13.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 120668,
+          "checksumSha256": "86b4a8cee88e710d4dbd2eb011a1d62ae4c34a56a6222da92fde388a57ee920e",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "14.jpg",
+      "sourcePath": "template-library/social-media/Schools/14.jpg",
+      "asset": {
+        "id": "19d65cff-f580-4a8e-a565-a0425ac6c43b",
+        "slug": "schools-post-6",
+        "legacyId": "local-schools-14.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "dd311c1b-6e43-4b2c-acc3-f3ff15f44db5",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 6",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/14.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "0e77c58b-82a0-4011-adbb-fa14518c4636",
+          "storageKey": "templates/social-media/schools/14.jpg",
+          "fileName": "14.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 77955,
+          "checksumSha256": "155c577b64ed7d402036ec466717e4d0ee6b38dac546920fa2d4c5ca78f3726b",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "15.jpg",
+      "sourcePath": "template-library/social-media/Schools/15.jpg",
+      "asset": {
+        "id": "7f1a7e74-27ad-4fc0-afc0-fe770a036071",
+        "slug": "schools-post-7",
+        "legacyId": "local-schools-15.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "42ff8e33-a24c-4121-a075-692722c22333",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 7",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1080,
+            "height": 1350,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/15.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "50593e7c-7f89-4492-afe3-cc147afd5894",
+          "storageKey": "templates/social-media/schools/15.jpg",
+          "fileName": "15.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 158143,
+          "checksumSha256": "18ec41d89a7a60bba9da552835db290b028dad4477163e6b2009ce32e54f9fd8",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1080,
+        "height": 1350,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "2.jpg",
+      "sourcePath": "template-library/social-media/Schools/2.jpg",
+      "asset": {
+        "id": "cfe13d24-4344-4747-afb5-cf1c902f2a1b",
+        "slug": "schools-post-8",
+        "legacyId": "local-schools-2.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "b5b0be34-3c62-4e07-a7d5-10915199d76b",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 8",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1200,
+            "height": 1500,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/2.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "68fe29bb-bd1c-4be8-af62-7a4a59fe73e2",
+          "storageKey": "templates/social-media/schools/2.jpg",
+          "fileName": "2.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 209596,
+          "checksumSha256": "13d2f03de98578a3d96e1c7369ea43c8cc2ce1ec581d20da58f73122a6a3f9aa",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1200,
+        "height": 1500,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "3.jpeg",
+      "sourcePath": "template-library/social-media/Schools/3.jpeg",
+      "asset": {
+        "id": "d1e62457-c674-4fce-a176-3563aa6f15cf",
+        "slug": "schools-post-9",
+        "legacyId": "local-schools-3.jpeg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "2e264d06-6bdf-423e-a728-dd8150fb5de8",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 9",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/3.jpeg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "09952506-5b56-44db-ab87-063065dcad63",
+          "storageKey": "templates/social-media/schools/3.jpeg",
+          "fileName": "3.jpeg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 102739,
+          "checksumSha256": "b7122045e4232f880b6a46cd0c4cda7b5efe37f54cba22a9108a42dd53dee5d4",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "4.jpg",
+      "sourcePath": "template-library/social-media/Schools/4.jpg",
+      "asset": {
+        "id": "ad3c4dab-99b3-462b-ab18-a0ca9bd0063e",
+        "slug": "schools-post-10",
+        "legacyId": "local-schools-4.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "291366fe-738f-481f-a5af-81229a2865d4",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 10",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/4.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "4ddfee8e-4e89-43a8-aee4-4dfa54179255",
+          "storageKey": "templates/social-media/schools/4.jpg",
+          "fileName": "4.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 122298,
+          "checksumSha256": "69065e8aa02104ba92149a1ffa0d94274fd44ea747e142d1d33898bfbba706f1",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "5.jpg",
+      "sourcePath": "template-library/social-media/Schools/5.jpg",
+      "asset": {
+        "id": "995e7c76-68f6-407e-a03e-a56f4d20d981",
+        "slug": "schools-post-11",
+        "legacyId": "local-schools-5.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "2aa45c51-fc2b-4f99-ac42-cdb895c36b93",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 11",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1200,
+            "height": 1500,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/5.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "c46cc0a2-65b0-45d7-aeb7-7cd2e53a22b4",
+          "storageKey": "templates/social-media/schools/5.jpg",
+          "fileName": "5.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 149726,
+          "checksumSha256": "ba42e357b1723947c1b033d7843de9209a9009f3c9b36a1e4983c5328ebadc34",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1200,
+        "height": 1500,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "6.jpg",
+      "sourcePath": "template-library/social-media/Schools/6.jpg",
+      "asset": {
+        "id": "8721fc93-4203-40a9-a792-aec76ef278b6",
+        "slug": "schools-post-12",
+        "legacyId": "local-schools-6.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "a5a5805c-6c79-4cca-a685-ce397af8bca1",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 12",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/6.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "7e4db324-041a-4a82-a34f-3466636eae3e",
+          "storageKey": "templates/social-media/schools/6.jpg",
+          "fileName": "6.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 70219,
+          "checksumSha256": "b9c2a00c0ab9180d699b25ca847adc70418c4aa2a77ad4747132f8ba1fd9f195",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "7.jpg",
+      "sourcePath": "template-library/social-media/Schools/7.jpg",
+      "asset": {
+        "id": "4b658648-624b-4bea-adbb-f87a92d34bf5",
+        "slug": "schools-post-13",
+        "legacyId": "local-schools-7.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "31a0ddcd-b58d-4f30-a31c-da463f50094d",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 13",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/7.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "8c027818-770e-4797-af4f-8dae271ba066",
+          "storageKey": "templates/social-media/schools/7.jpg",
+          "fileName": "7.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 95470,
+          "checksumSha256": "74c63adf077a84447d9071c374fe38914b242dea782125069fba86ceaebf0284",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "8.jpg",
+      "sourcePath": "template-library/social-media/Schools/8.jpg",
+      "asset": {
+        "id": "1f7e8fb4-31b4-4e99-a47f-ec8187b7caae",
+        "slug": "schools-post-14",
+        "legacyId": "local-schools-8.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "7f04b51a-b9b4-4adc-acbf-ad9e37f4e0df",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 14",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 736,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/8.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "a9e94b1b-484a-4631-a524-95e729426367",
+          "storageKey": "templates/social-media/schools/8.jpg",
+          "fileName": "8.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 91941,
+          "checksumSha256": "ad6c76af9c0e2b652e7d192b11fb0b37c2b3b2eb9c03a2919687f51258ec6c98",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 736,
+        "aspectRatio": 1,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "8d163ff36c6d2587a7027e49665dbbaa.jpg",
+      "sourcePath": "template-library/social-media/Schools/8d163ff36c6d2587a7027e49665dbbaa.jpg",
+      "asset": {
+        "id": "ef156e73-a6a8-41a5-a2a8-0efa08ae9c3f",
+        "slug": "schools-post-15",
+        "legacyId": "local-schools-8d163ff36c6d2587a7027e49665dbbaa.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "2362600c-c2db-48cc-a073-fd71b8515014",
+        "revisionNumber": 1,
+        "title": "Schools - d163ff36c6d2587a7027e49665dbbaa",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 735,
+            "height": 919,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/8d163ff36c6d2587a7027e49665dbbaa.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "3823d63b-3300-4bfb-a2d3-f2821dcf0d12",
+          "storageKey": "templates/social-media/schools/8d163ff36c6d2587a7027e49665dbbaa.jpg",
+          "fileName": "8d163ff36c6d2587a7027e49665dbbaa.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 80146,
+          "checksumSha256": "6b6d2b6db98117c3985e3b8db484c83e18f7ad0395354593f3e1abfc6f701bff",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 735,
+        "height": 919,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "9.jpg",
+      "sourcePath": "template-library/social-media/Schools/9.jpg",
+      "asset": {
+        "id": "8128b7b1-ca0d-4432-a412-4a5a88a9568b",
+        "slug": "schools-post-16",
+        "legacyId": "local-schools-9.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "e4642f99-4a48-4ddf-ab4b-4a763a4e4a6c",
+        "revisionNumber": 1,
+        "title": "Schools Post Template 16",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1200,
+            "height": 1600,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/9.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "e5187fa1-d415-4f9c-a78e-7168297295e0",
+          "storageKey": "templates/social-media/schools/9.jpg",
+          "fileName": "9.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 280480,
+          "checksumSha256": "5d78ee68705f95e995021391ad79a1473a5b968b4f6931907e14aa8090f09f02",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1200,
+        "height": 1600,
+        "aspectRatio": 0.75,
+        "detectedFormat": "jpeg"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "School1.png",
+      "sourcePath": "template-library/social-media/Schools/School1.png",
+      "asset": {
+        "id": "2c3dcde4-27e6-4734-a7eb-0016809df42c",
+        "slug": "schools-post-17",
+        "legacyId": "local-schools-School1.png",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "cae8ff1d-1594-4d72-a387-181d31cf9a9a",
+        "revisionNumber": 1,
+        "title": "Schools - School1",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1122,
+            "height": 1402,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/School1.png"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "e6821c1a-2b3d-48b1-afac-3855df1a978b",
+          "storageKey": "templates/social-media/schools/school1.png",
+          "fileName": "School1.png",
+          "mimeType": "image/png",
+          "sizeBytes": 2633439,
+          "checksumSha256": "90cf117c193c78d33a162275f30adebead13b7dea2efd312edafc766877e36b9",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1122,
+        "height": 1402,
+        "aspectRatio": 0.8,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "School2.png",
+      "sourcePath": "template-library/social-media/Schools/School2.png",
+      "asset": {
+        "id": "b4b83f68-9844-4d65-ac91-0e75076e4bf3",
+        "slug": "schools-post-18",
+        "legacyId": "local-schools-School2.png",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "ce4dcded-a5d4-4ea8-a0d7-6852b1ff5b81",
+        "revisionNumber": 1,
+        "title": "Schools - School2",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 1976,
+            "height": 796,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/School2.png"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "5ea4d13a-a252-43e6-aaef-7292eef38a63",
+          "storageKey": "templates/social-media/schools/school2.png",
+          "fileName": "School2.png",
+          "mimeType": "image/png",
+          "sizeBytes": 2674787,
+          "checksumSha256": "9a79ed83f65309bf6f9492eeb8cceecff65c4d398c0c4671fd079e1e133c6bbd",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 1976,
+        "height": 796,
+        "aspectRatio": 2.482,
+        "detectedFormat": "png"
+      }
+    },
+    {
+      "sourceCategory": "Schools",
+      "originalFileName": "bd70eb3aaa448b45e8f12db691c3f12a.jpg",
+      "sourcePath": "template-library/social-media/Schools/bd70eb3aaa448b45e8f12db691c3f12a.jpg",
+      "asset": {
+        "id": "0b434de9-8230-4f77-afa7-59289479776b",
+        "slug": "schools-post-19",
+        "legacyId": "local-schools-bd70eb3aaa448b45e8f12db691c3f12a.jpg",
+        "importSource": "template-library/social-media",
+        "typeCode": "social-post",
+        "status": "DRAFT",
+        "lastRevisionNumber": 1,
+        "isFeatured": false,
+        "creatorIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "revision": {
+        "id": "feb5c0ca-dbc3-4f74-a67e-a596629bfe48",
+        "revisionNumber": 1,
+        "title": "Schools - bd70eb3aaa448b45e8f12db691c3f12a",
+        "description": "Customizable social media post design for Schools. Master reusable template.",
+        "metadata": {
+          "documentVersion": 1,
+          "canvas": {
+            "width": 736,
+            "height": 920,
+            "backgroundColor": "#ffffff",
+            "backgroundImageUrl": "/api/assets/raw/Schools/bd70eb3aaa448b45e8f12db691c3f12a.jpg"
+          },
+          "elements": []
+        },
+        "schemaVersion": 1,
+        "status": "DRAFT",
+        "createdByIdPlaceholder": "NOT_RESOLVED_LOCAL_MODE"
+      },
+      "files": [
+        {
+          "id": "43686d2a-77bd-4719-a8b5-768da5407a17",
+          "storageKey": "templates/social-media/schools/bd70eb3aaa448b45e8f12db691c3f12a.jpg",
+          "fileName": "bd70eb3aaa448b45e8f12db691c3f12a.jpg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 97736,
+          "checksumSha256": "5f1f7d88f47313aab2080e58a20f63efed1807768050a053e38c2f618ca1fe55",
+          "role": "PRIMARY_ENTRY",
+          "isEntryPoint": true
+        }
+      ],
+      "validation": {
+        "status": "VALID",
+        "width": 736,
+        "height": 920,
+        "aspectRatio": 0.8,
+        "detectedFormat": "jpeg"
+      }
+    }
+  ]
+}
